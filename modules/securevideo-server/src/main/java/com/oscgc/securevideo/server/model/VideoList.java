@@ -1,0 +1,1 @@
+package com.oscgc.securevideo.server.model;import java.util.ArrayList;import java.util.HashMap;import java.util.List;import java.util.Map;/** * Created by Yq on 2015/5/28. */public class VideoList {	private static List<Video> instance = new ArrayList<Video>();	private VideoList (){}	public static List<Video> getInstance() {		return instance;	}}

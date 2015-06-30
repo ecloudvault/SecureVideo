@@ -1,0 +1,106 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="disp-dashboard:war exploded">
+    <output-path>$PROJECT_DIR$/../../../DiSP/modules/dashboard/target/disp-dashboard-1.0.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="disp-dashboard" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-model:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: in.clouthink.daas:daas-token:1.0.7" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-repository:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-edm:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-eai:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.27" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.19" />
+          <element id="library" level="project" name="Maven: in.clouthink.daas:daas-core:1.0.1-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor:2.0.5" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.9.2" />
+          <element id="library" level="project" name="Maven: com.typesafe:config:0.3.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-remote:2.0.5" />
+          <element id="library" level="project" name="Maven: io.netty:netty:3.5.4.Final" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.4.1" />
+          <element id="library" level="project" name="Maven: net.debasishg:sjson_2.9.1:0.15" />
+          <element id="library" level="project" name="Maven: net.databinder:dispatch-json_2.9.1:0.8.5" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.1" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.1" />
+          <element id="library" level="project" name="Maven: org.objenesis:objenesis:1.2" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
+          <element id="library" level="project" name="Maven: voldemort.store.compress:h2-lzf:1.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-kernel:2.0.5" />
+          <element id="library" level="project" name="Maven: org.thymeleaf.extras:thymeleaf-extras-springsecurity3:2.1.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.thymeleaf:thymeleaf:2.1.2.RELEASE" />
+          <element id="library" level="project" name="Maven: ognl:ognl:3.0.6" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.16.1-GA" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-taglibs:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-acl:3.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:0.7.4" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-edm-ext:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-repackage:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: net.sf.json-lib:json-lib:jdk15:2.4" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.0" />
+          <element id="library" level="project" name="Maven: net.sf.ezmorph:ezmorph:1.0.6" />
+          <element id="library" level="project" name="Maven: com.dashuf.disp:disp-service:1.0.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.13.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-core:3.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-config:3.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.security:spring-security-web:3.2.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb:1.4.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.7.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:2.11.4" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.4.2.RELEASE" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.5.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.5.1" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.5.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.4" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: com.google.guava:guava:17.0" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.4" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: cz.mallat.uasparser:uasparser:0.6.2" />
+          <element id="library" level="project" name="Maven: net.sourceforge.jregex:jregex:1.2_01" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.4" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.2" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.2" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:1.1.0.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.2.0.Final" />
+          <element id="library" level="project" name="Maven: net.erdfelt.android:apk-parser:1.1" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../../../DiSP/modules/dashboard/target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="disp-dashboard/web/Web" />
+    </root>
+  </artifact>
+</component>

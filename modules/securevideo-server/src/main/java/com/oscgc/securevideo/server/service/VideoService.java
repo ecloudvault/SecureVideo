@@ -1,0 +1,1 @@
+package com.oscgc.securevideo.server.service;import com.oscgc.securevideo.server.model.Video;import java.util.List;/** * Created by Yq on 2015/5/28. */public interface VideoService {	public List<Video> findAllVideos();	public List<Video> findByTenant(String tenantId);	public Video findVideoById(String id);}

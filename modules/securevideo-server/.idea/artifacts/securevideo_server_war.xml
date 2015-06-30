@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="securevideo-server:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="oscgc-securevideo-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="securevideo-server:war exploded" />
+    </root>
+  </artifact>
+</component>

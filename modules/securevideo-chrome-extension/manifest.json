@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "SecureVideo",
+  "description": "SecureVideo Chrome extension",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "http://*/*","https://*/*", "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["securevideo.js"],
+      "run_at":"document_end"
+    }
+  ],
+  "browser_action": {
+    "default_icon": "settings.png",
+    "default_popup": "config.html",
+    "default_title": "SecureVideo Extension Configuration"
+  },
+  "background": {
+    "scripts": [
+    "crypto-js/core-min.js",
+    "crypto-js/sha1.js",
+    "jsrsasign/ext/base64.js",
+    "jsrsasign/ext/jsbn.js",
+    "jsrsasign/ext/jsbn2.js",
+    "jsrsasign/ext/rsa.js",
+    "jsrsasign/ext/rsa2.js",
+    "jsrsasign/asn1hex-1.1.js",
+      "jsrsasign/keyutil-1.0.js",
+    "jsrsasign/rsasign-1.2.js",
+    "jsrsasign/rsapem-1.1.js",
+    "jsrsasign/crypto-1.1.js",
+    "jquery-2.1.4.min.js",
+      "jsencrypt/jsencrypt.js",
+    "background.js"
+    ],
+    "persistent": false
+    },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

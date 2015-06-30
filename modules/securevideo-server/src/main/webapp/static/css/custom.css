@@ -1,0 +1,121 @@
+
+body{
+    margin-top: 60px;
+}
+
+.content-header {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.fixed .content-wrapper, .fixed .right-side{padding-top:5px;}
+.videoList img{width: 100%;}
+.caption{  word-break: break-word;
+    word-wrap: break-word;}
+/*.uploading{  position: absolute;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*top: 0;*/
+    /*opacity:1;*/
+    /*display:none ;*/
+    /*z-index:3;*/
+    /*padding: 10%;*/
+    /*margin-bottom: 20px;*/
+    /*border: 1px solid transparent;*/
+    /*border-radius: 4px;*/
+/*}*/
+/*.upload-info {*/
+
+    /*background-color:white;*/
+    /*border-color: #bce8f1;*/
+/*}*/
+
+.uploading{  position: absolute;
+    height: 100%;
+    width: 94%;
+    top: 0;
+    opacity:1;
+    display:none ;
+    z-index:3;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.upload-info {
+
+    background-color:white;
+    border-color: #bce8f1;
+}
+.errorPanel{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: none;
+    z-index: 9999;
+}
+.content-wrapper{height: auto;}
+
+.content {
+    min-height: 100%;}
+.videoencbackground{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 1111;background-color: #000000;opacity: 0.5;}
+.videoencpanel{width: 20%;height: 30%;position: absolute;top: 25%;left:35%;z-index: 1115;}
